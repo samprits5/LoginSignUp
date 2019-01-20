@@ -96,7 +96,7 @@ public class SignUpActivity extends AppCompatActivity {
 
     private void progressDialog(){
         final ProgressDialog pd = new ProgressDialog(SignUpActivity.this);
-        pd.setMessage("Logging in...");
+        pd.setMessage("Signing up...");
         pd.show();
         new CountDownTimer(5000, 5000) {
 
